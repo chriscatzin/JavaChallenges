@@ -1,4 +1,10 @@
 package com.collabera;
+/********************************
+ * Adventure Game
+ * Created by: Christopher Catzin
+ * October 23, 2019
+
+********************************* */
 
 
 import java.util.HashMap;
