@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1e22c6-332d-4c71-9a2e-82351d93c9a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/collabera/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collabera/Locations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/collabera/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collabera/Location.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +27,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/collabera/Locations.java">
+        <entry file="file://$PROJECT_DIR$/src/com/collabera/Location.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -144,7 +144,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="30" width="720" height="821" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -195,7 +194,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/collabera/Locations.java">
+    <entry file="file://$PROJECT_DIR$/src/com/collabera/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
