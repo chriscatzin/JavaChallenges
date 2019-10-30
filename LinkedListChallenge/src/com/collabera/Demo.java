@@ -20,6 +20,12 @@ public class Demo {
 
         printList(placesToVist);
 
+        placesToVist.add(1, "Portland");
+        printList(placesToVist);
+
+        placesToVist.remove(4);
+        printList(placesToVist);
+
     }
 
     private static void printList(LinkedList<String> linkedList){
