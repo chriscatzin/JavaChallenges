@@ -1,5 +1,8 @@
 package com.collabera;
 
+// Christopher Catzin
+// Modified: November 1, 2019
+
 public class Customer {
 
     private String name;
