@@ -43,6 +43,7 @@ public class Demo {
         while(stringListIterator.hasNext()){
             int comparison = stringListIterator.next().compareTo(newCity);
             if(comparison == 0){
+                // equal, do not add
                 System.out.println(newCity + " is already included as a destination");
                 return false;
             } else if(comparison > 0){
@@ -51,7 +52,8 @@ public class Demo {
                 stringListIterator.add(newCity);
                 return true;
             } else if(comparison < 0){
-                // move on to the next city
+                // move on to the next
+                // city
 
             }
         }
