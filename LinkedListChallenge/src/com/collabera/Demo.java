@@ -21,8 +21,10 @@ public class Demo {
         addInOrder(placesToVist, "San Antonio");
         addInOrder(placesToVist, "Los Angeles");
 
-        printList(placesToVist);
 
+        addInOrder(placesToVist, "San Pedro");
+        addInOrder(placesToVist, "Los Angeles");
+        printList(placesToVist);
 
     }
 
