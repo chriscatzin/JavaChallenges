@@ -6,6 +6,7 @@ package com.collabera;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
+import java.util.Scanner;
 
 public class Demo {
 
@@ -58,5 +59,21 @@ public class Demo {
         }
         stringListIterator.add(newCity);
         return true;
+    }
+
+    private static void visit(LinkedList cities){
+        Scanner scanner = new Scanner(System.in);
+        boolean quit = false;
+        ListIterator<String> listIterator = cities.listIterator();
+
+        if(cities.getFirst() == ""){
+            System.out.println("No cities inputed.");
+        }else{
+            System.out.println("Now Visiting " + listIterator.next());
+        }
+
+        while(!quit){
+            int action = scanner.nextInt();
+        }
     }
 }
