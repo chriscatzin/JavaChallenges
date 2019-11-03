@@ -13,22 +13,16 @@ public class Demo {
 
         LinkedList<String> placesToVist = new LinkedList<String>();
 
-        placesToVist.add("New York");
-        placesToVist.add("St. Louis");
-        placesToVist.add("Chicago");
-        placesToVist.add("Dallas");
-        placesToVist.add("Austin");
-        placesToVist.add("San Antonio");
-        placesToVist.add("Phoenix");
-        placesToVist.add("Los Angeles");
+        addInOrder(placesToVist, "New York");
+        addInOrder(placesToVist, "St. Louis");
+        addInOrder(placesToVist, "Chicago");
+        addInOrder(placesToVist, "Dallas");
+        addInOrder(placesToVist, "Austin");
+        addInOrder(placesToVist, "San Antonio");
+        addInOrder(placesToVist, "Los Angeles");
 
         printList(placesToVist);
 
-        placesToVist.add(1, "Portland");
-        printList(placesToVist);
-
-        placesToVist.remove(4);
-        printList(placesToVist);
 
     }
 
@@ -61,5 +55,6 @@ public class Demo {
             }
         }
         stringListIterator.add(newCity);
+        return true;
     }
 }
