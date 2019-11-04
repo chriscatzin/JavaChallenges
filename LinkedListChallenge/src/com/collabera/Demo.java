@@ -77,8 +77,20 @@ public class Demo {
         while(!quit){
             int action = scanner.nextInt();
             scanner.nextLine();
-            case 0:
-                System.out.println("Holiday (");
+            switch(action) {
+                case 0:
+                    System.out.println("Holiday (Vacation) over");
+                    quit = true;
+                    break;
+
+                case 1:
+                    if(listIterator.hasNext()){
+                        System.out.println("Now visiting " + listIterator.next());
+                    }else{
+                        System.out.println("Reached the end of the List");
+                    }
+            }
+
         }
     }
 }
