@@ -100,8 +100,19 @@ public class Demo {
                     break;
 
                 case 3:
+                    printMenu();
+                    break;
             }
 
         }
     }
+
+    private static void printMenu() {
+        System.out.println("Available actions:\npress ");
+        System.out.println("0 - to quit\n" +
+                "1 - go to next city\n" +
+                "2 - go to previous city\n" +
+                "3 - print menu options");
+    }
+
 }
