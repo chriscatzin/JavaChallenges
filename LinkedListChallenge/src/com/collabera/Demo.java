@@ -89,6 +89,13 @@ public class Demo {
                     }else{
                         System.out.println("Reached the end of the List");
                     }
+
+                case 2:
+                    if(listIterator.hasPrevious()){
+                        System.out.println("Now visiting " + listIterator.previous());
+                    }else{
+                        System.out.println("We are at the start of the list.");
+                    }
             }
 
         }
