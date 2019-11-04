@@ -68,12 +68,17 @@ public class Demo {
 
         if(cities.getFirst() == ""){
             System.out.println("No cities inputed.");
+            return;
         }else{
             System.out.println("Now Visiting " + listIterator.next());
+            printMenu();
         }
 
         while(!quit){
             int action = scanner.nextInt();
+            scanner.nextLine();
+            case 0:
+                System.out.println("Holiday (");
         }
     }
 }
