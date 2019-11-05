@@ -108,6 +108,8 @@ public class Demo {
     }
 
     private static void printMenu() {
+        // Add more to the menu
+
         System.out.println("Available actions:\npress ");
         System.out.println("0 - to quit\n" +
                 "1 - go to next city\n" +
