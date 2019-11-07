@@ -1,7 +1,7 @@
 package com.collabera;
 
 // Christopher Catzin
-// Modified: November 1, 2019
+// Modified: November 6, 2019
 
 import java.util.Iterator;
 import java.util.LinkedList;
