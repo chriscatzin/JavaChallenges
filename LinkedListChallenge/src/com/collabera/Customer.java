@@ -1,7 +1,7 @@
 package com.collabera;
 
 // Christopher Catzin
-// Modified: November 7, 2019
+// Modified: November 12, 2019
 // This needs some work still.
 
 public class Customer {
