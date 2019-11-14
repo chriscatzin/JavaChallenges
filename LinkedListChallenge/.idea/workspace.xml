@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a95e596f-10e2-406b-8aff-43faeeb6f543" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/collabera/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collabera/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/collabera/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collabera/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/collabera/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collabera/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="a95e596f-10e2-406b-8aff-43faeeb6f543" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/collabera/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -235,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/collabera/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
