@@ -1,37 +1,36 @@
 package com.collabera;
 
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class arrayList {
 
-    private static Scanner s = new Scanner(System.in);
-    private static int[] baseData = new int[10];
+    private ArrayList<String> groceryList = new ArrayList<String>();
 
     public static void main(String[] args){
-        System.out.println("Enter 10 integers");
-        getInput();
-        printArray(baseData);
-        resizeArray();
-        
+
     }
-    public static void getInput(){
-        for(int i = 0; i < baseData.length; i++){
-            baseData[i] = s.nextInt();
+
+    public void addGroceryItem(String item){
+        groceryList.add(item);
+
+    }
+
+    public void printGroceryList(){
+        System.out.println("You have " + groceryList.size() + " items" +
+                " in you grocery list!");
+        for(int i = 0; i < groceryList.size(); i++){
+            System.out.println((i + 1) + ". " + groceryList.get(i));
         }
     }
 
-    private static void printArray(int[] arr){
-        for(int i = 0; i < baseData.length; i++){
-            System.out.println(arr[i] + " ");
-        }
-        System.out.println();
+    public void modifyGroceryItem(int position, String newItem){
+        groceryList.set(position, newItem);
+        System.out.println("Grocery item " + (position + 1) +
+                " has been modified.");
     }
 
-    private static void resizeArray(){
-        int[] original = baseData;
-        baseData = new int[12];
-        for(int i = 0; i < original.length;i++){
-            baseData[i] = original[i];
-        }
+    public void removeGroceryItem(int position){
+        String theItem = groceryList.get(position);
+        groceryList.remove(position);
     }
 }
